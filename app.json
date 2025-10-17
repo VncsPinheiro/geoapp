@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.geoapp",
+      "infoPlist": {
+        "NSLocationWhenInUseDescription": "Este app precisa de acesso à sua localização para mostrar sua posição no mapa"
+      }
     },
     "android": {
       "adaptiveIcon": {
